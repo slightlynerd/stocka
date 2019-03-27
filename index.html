@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Roboto|Raleway" rel="stylesheet">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
   <script src="chartjs-plugin-annotation.min.js"></script>
 </head>
 <body>
@@ -51,15 +51,15 @@
   </nav>
 
   <div class="section">
-    <h1>Daily updates</h1>
+    <h1>Monthly updates</h1>
     <table class="table">
       <thead>
         <tr>
           <th>Company</th>
           <th>Price</th>
-          <th>High</th>
-          <th>Low</th>
-          <th>Change</th>
+          <th class="tb-collapse">High</th>
+          <th class="tb-collapse">Low</th>
+          <th class="tb-collapse">Change</th>
         </tr>
       </thead>
       <tbody id="table-body"></tbody>
@@ -85,7 +85,21 @@
   <div class="section alt">
     <div class="graph">
       <h2>Economic Changes</h2>
-      <canvas id="myChart" width="400" height="200"></canvas>
+      <p>Select a company to view stock prices over the last 12 months</p>
+      <select name="company" id="company">
+        <option value="" disabled>Select a Company</option>
+        <option value="viacom" selected>Viacom Inc</option>
+        <option value="lennar">Lennar Corp</option>
+        <option value="brands">Brands Inc</option>
+        <option value="yourex">Yourex</option>
+        <option value="apple">Apple LLC</option>
+        <option value="primedsoft">Primedsoft</option>
+        <option value="ksih">KSIH</option>
+        <option value="snappy">Snappy Labs</option>
+        <option value="xyz">XYZ</option>
+        <option value="abc">ABC</option>
+      </select>
+      <canvas id="myChart" width="400" height="400"></canvas>
     </div>
   </div>
 

@@ -69,14 +69,14 @@ td {
 }
 .stock-range {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin: 20px 0;
-  width: 100%;
+  width: 90%;
 }
 .mb-button {
   outline: none;
   border: none;
-  margin: 0;
   padding: 4px 8px;
   font-size: 16px;
   background-color: none;
@@ -94,4 +94,9 @@ td {
   width: 90%;
   height: 250px;
   margin: 50px 0;
+}
+@media (max-width: 420px) {
+  .tb-collapse {
+    display: none;
+  }
 }
