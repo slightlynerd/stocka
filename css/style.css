@@ -39,14 +39,12 @@ p {
 .nav__title {
   margin: 30px 10px;
 }
-.section {
-  padding: 20px;
-}
 .alt {
   background-color: #e8eaf6;
 }
 .graph {
   width: 90%;
+  padding: 20px;
 }
 table {
   border-collapse: collapse;
@@ -69,7 +67,7 @@ td {
 }
 .stock-range {
   display: flex;
-  flex-wrap: wrap;
+  overflow-x: scroll;
   justify-content: center;
   margin: 20px 0;
   width: 90%;
@@ -98,6 +96,13 @@ td {
   width: 90%;
   height: 300px;
   margin: 50px 0;
+  padding: 20px;
+}
+select {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #3d5afe;
+  background-color: #e8eaf6;
 }
 @media (max-width: 420px) {
   .tb-collapse {
