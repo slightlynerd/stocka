@@ -79,18 +79,19 @@ td {
   border: none;
   padding: 4px 8px;
   font-size: 16px;
-  background-color: none;
+  width: 60px;
+  background-color: #ffffff;
   color: #3d5afe;
-  margin: 10px;
+  margin: 5px;
   border-radius: 8px;
-  box-shadow: 4px 5px 5px #efefef;
+  box-shadow: 2px 3px 3px #efefef;
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.3s;
 }
 .mb-button:focus {
   background-color: #3d5afe;
-  box-shadow: 10px 10px 10px #dadada;
+  box-shadow: 5px 6px 10px #dadada;
   color: #fafafa;
 }
 .forex {
