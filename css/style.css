@@ -107,6 +107,16 @@ select {
   margin: 10px 0 20px 0;
   height: 40px;
 }
+.copyright {
+  text-align: center;
+  font-size: 14px;
+  background-color: #e0e0e0;
+  margin: 30px 0 0 0;
+  padding: 10px 0
+}
+p.copyright {
+  margin: 0;
+}
 @media (max-width: 420px) {
   .tb-collapse {
     display: none;
