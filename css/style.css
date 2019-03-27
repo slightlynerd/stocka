@@ -111,4 +111,7 @@ select {
   .tb-collapse {
     display: none;
   }
+  #idChart {
+    width: 100%;
+  }
 }
