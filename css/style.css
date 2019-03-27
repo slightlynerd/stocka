@@ -69,7 +69,7 @@ td {
 }
 .stock-range {
   display: flex;
-  overflow-x: scroll;
+  flex-wrap: wrap;
   justify-content: center;
   margin: 20px 0;
   width: 90%;
